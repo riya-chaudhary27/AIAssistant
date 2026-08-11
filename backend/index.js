@@ -16,7 +16,7 @@ dns.setServers(["1.1.1.1","8.8.8.8"]);
 
 const app=express()
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://aiassistant-y6xs.onrender.com",
     credentials:true
 }))
 const port=process.env.PORT || 5000
